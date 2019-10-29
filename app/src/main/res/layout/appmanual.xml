@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:background="@drawable/registergradient"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+                android:src="@drawable/book" />
+            <TextView
+                android:text="-Press the register button to join out application you will need to enter valid Email,password,Username,your name,Vehicle license number,security question and answer for more security,gender and birth date, finally press REGISTER to confirm your data. "
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"
+                android:textColor="#ffffff"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+                android:src="@drawable/sep" />
+            <TextView
+                android:text="-In the login screen you will be required to enter your registered Email and your password,you can choose if the app logs in automatically the next time you open the app by ticking the 'Remember me', if you forgot your password you can click 'Forgot password' enter your registered email, and an email will be sent to enter your new password.  "
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"
+                android:textColor="#ffffff"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+                android:src="@drawable/sep" />       <TextView
+            android:text="-in the user dashboard you will see the trip button in the middle of the display press it to start a new trip,the application will ask for permission to get your location, then you will be required to choose your destination on the map by long pressing  it on the map,you should see a marker where you pressed, a route with the shortest path will be drawn on the map,the application will show you an error message each time you do each of theses violations, moving in the opposite direction of the map, breaking a traffic light whil it's still red and blocking the road, if you block the road for more 2 minutes you will be warned to move your vehicle if time exceeds 3 minutes it will be counted as a violation."
+            android:textSize="20dp"
+            app:fontFamily="@font/futuralightbt"
+            android:textColor="#ffffff"
+            ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sep" />
+            <TextView
+                android:text="-Each trip you make will contain the number of violations made with place,time and the violation made, and put it in a report that will be sent to you via email each month, if you want to see the reports on demand, in the user dashboard you will find REPORT button,when you press you will find all the reports and will be sent to your email. "
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"
+                android:textColor="#ffffff"
+                ></TextView>
+
+            <!-- everything you already have -->
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/registergradient"
+    tools:context=".couponActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:background="#2B2B2B"
+            android:fontFamily="@font/qhyts"
+            android:text="Add Coupon"
+            android:textAlignment="center"
+            android:textColor="@color/mapBoxWhite"
+            android:textSize="45dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:background="@drawable/edittexstyle"
+        android:textColorHint="@color/mapBoxWhite"
+        android:textAlignment="center"
+        android:fontFamily="@font/futuralightbt"
+        android:layout_margin="10dp"
+        android:hint="Enter ID"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edittexstyle"
+        android:textColorHint="@color/mapBoxWhite"
+        android:textAlignment="center"
+        android:fontFamily="@font/futuralightbt"
+        android:layout_margin="10dp"
+        android:hint="Enter type of copoun"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edittexstyle"
+        android:textColorHint="@color/mapBoxWhite"
+        android:textAlignment="center"
+        android:fontFamily="@font/futuralightbt"
+        android:layout_margin="10dp"
+        android:hint="Enter Owner of coupon"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/Addbutton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/futuralightbt"
+        android:textColor="@color/btntext"
+
+        android:textSize="35dp"
+        android:background="@drawable/buttonshapexx"
+        android:text="Add" />
+</LinearLayout>

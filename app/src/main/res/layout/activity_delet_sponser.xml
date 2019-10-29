@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/ListFont"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/registergradient"
+    tools:context=".deletSponser">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:background="@color/profileheader"
+            android:fontFamily="@font/qhyts"
+            android:text="Preview Sponsers "
+            android:textAlignment="center"
+            android:textColor="@color/mapBoxWhite"
+            android:textSize="45dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/viewS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/futuralightbt"
+        android:textSize="35dp"
+        android:textColor="@color/btntext"
+        android:background="@drawable/buttonshapexx"
+        android:text="Preview " />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sep" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press Long press to remove user"
+        android:visibility="invisible"/>
+
+
+    <ListView
+        android:id="@+id/ListSpon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <TextView
+        android:id="@+id/UEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <TextView
+        android:id="@+id/UAddres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <TextView
+        android:id="@+id/UPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mapBoxWhite">#ffffff</color>
+    <color name="mapBoxBlue">#4264fb</color>
+    <color name="mapBoxGrayLight">#c6d2e1</color>
+    <color name="colorPrimary">#5E3780</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backGround">#CE000000</color>
+    <color name="strokecolor">#F2B134</color>
+    <color name="strokecolor2">#20CE93D8</color>
+    <color name="header">#FFFFC107</color>
+    <color name="radio">#FFC400</color>
+    <color name="profileheader">#2C2C2C</color>
+    <color name="toolbarback">#403E3D</color>
+    <color name="listcolor">#ffffff</color>
+
+    <color name="strokecolor3">#F5CE93D8</color>
+    <color name="btntext">#B66DAB</color>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="google_map_api_key">AIzaSyCgdpOJGaeovGkvt9jJSGK9XhzsQPNwVsU</string>
+    <string name="app_name">GraduationProject</string>
+    <string name="access_token">pk.eyJ1IjoiZ3JhZHVhdGlvbnByb2plY3QiLCJhIjoiY2p3eTdvbHVxMHJscjQ5anpzd20zaXlmNCJ9.nqnC0PUynIR86JuoDF5doQ</string>
+    <string name="start_navigating">Start Navigating</string>
+    <string name="title_activity_help">helpActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

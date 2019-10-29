@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/registergradient"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200px">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/profileheader"
+                    android:fontFamily="@font/qhyts"
+                    android:gravity="center"
+                    android:text=" Registration "
+                    android:textColor="@color/mapBoxWhite"
+                    android:textSize="55dp" />
+
+            </LinearLayout>
+
+
+            <EditText
+
+                android:id="@+id/regEBusername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint="User name"
+                android:textColor="@color/mapBoxWhite"
+                android:textColorHint="@android:color/white"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+            <EditText
+                android:id="@+id/regEBname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint="name"
+                android:textColor="@color/mapBoxWhite"
+                android:textColorHint="@android:color/white"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+            <EditText
+                android:id="@+id/regEBaddress"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint=" Address"
+                android:textColor="@color/mapBoxWhite"
+                android:textColorHint="@android:color/white"
+
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+            <EditText
+                android:id="@+id/regEBemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint=" Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/mapBoxWhite"
+                android:textColorHint="@android:color/white"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+
+            <EditText
+                android:id="@+id/regEBpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint=" Password"
+                android:inputType="textPassword|number"
+                android:textColor="@color/mapBoxWhite"
+                android:textColorHint="@android:color/white"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+            <EditText
+                android:id="@+id/regEBConfpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint=" Confirm Password"
+                android:inputType="textPassword|number"
+                android:textColor="@color/mapBoxWhite"
+                android:textColorHint="@android:color/white"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+
+            <EditText
+                android:id="@+id/regEBlicense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint=" License number"
+                android:textColor="@color/mapBoxWhite"
+                android:textColorHint="@android:color/white"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+
+            <EditText
+                android:id="@+id/regEBanswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint=" Enter security question answer"
+                android:textColor="@color/mapBoxWhite"
+                android:textColorHint="@android:color/white"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+            <TextView
+                android:id="@+id/textviewDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/edittexstyle"
+                android:gravity="center"
+                android:hint="Select Birth date"
+                android:textColorHint="@android:color/white"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/radioButtonMale"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="90dp"
+                android:paddingRight="30dp">
+
+                <RadioButton
+                    android:id="@+id/radioButtonMale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@android:color/white"
+                    android:text="Male"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    app:fontFamily="@font/futuralightbt" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonFemal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@android:color/white"
+                    android:text="Female"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    app:fontFamily="@font/futuralightbt"
+                    tools:text="Female" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/regBTNregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/buttonshapexx"
+
+                android:text="Register"
+                android:textColor="@color/btntext"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/already"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:gravity="center"
+                android:text="Already a member ?"
+                android:textColor="@color/mapBoxWhite"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+
+            <TextView
+                android:id="@+id/signinhere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="138dp"
+                android:gravity="center"
+                android:text="Sign in NOW"
+                android:textColor="@color/mapBoxWhite"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/futuralightbt" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:background="@drawable/registergradient"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+   <ImageView
+       android:layout_height="150dp"
+       android:layout_width="150dp"
+       android:layout_marginBottom="20dp"
+       android:src="@drawable/ic_traffic_light">
+
+   </ImageView>
+            <TextView
+
+                android:text="Always Wear Seat Belt"
+                android:background="@color/profileheader"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <TextView
+
+                android:text="It is most essential factor to do for a car driver. If you wear a seat belt then it prevents you from being thrown around the inside of a crashing vehicle or thrown through the out of the vehicle during any accident and save your life. It reduced the risk of serious injury by 45% to 50%. In majority of car crashes, people have a greater chance of surviving if they wear a seat belt."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+                android:src="@drawable/sep" />
+            <TextView
+
+                android:text="Never Break Red Signal"
+                android:textAlignment="center"
+                android:background="@color/profileheader"
+
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <TextView
+
+                android:text="It is most common causes for road accidents. When you take a risk to run on red signal, another car will turn, it causes some serious accidents. So, never break red signal and always wait for green signal."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+                android:src="@drawable/sep" />
+            <TextView
+
+                android:text="Keep a Safe Distance "
+                android:textAlignment="center"
+                android:background="@color/profileheader"
+
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <TextView
+
+                android:text="It is highly recommended factor to the car driver to maintain a safe distance between the cars ahead. If the other vehicle makes a sudden turn or stop, then the driver requires enough time to handle that situation."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sep" />
+            <TextView
+
+                android:text="Never drive in the opposite Lane  "
+                android:textAlignment="center"
+                android:background="@color/profileheader"
+
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <TextView
+
+                android:text="It's so dangerous to drive in the opposite lane for whatever reason, it can cause serious accidents than can lead to death."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sep" />
+            <TextView
+
+                android:text="Never stop in the middle of the road "
+                android:textAlignment="center"
+                android:background="@color/profileheader"
+
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <TextView
+
+                android:text="Stopping in the middle of the road can cause serious accidents or cause congestion "
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sep" />
+            <TextView
+
+                android:text="Always Drive In Speed Limit "
+                android:textAlignment="center"
+                android:background="@color/profileheader"
+
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <TextView
+
+                android:text="Generally youngster loves speed, but this fun cost you your life or permanent disabilities. It is one of the most important factor controls the traffic accidents. Almost every year over speeding more than 45% of the serious crashes. Due to over speeding your reaction times becomes very less. It is more dangerous and serious for our life. So, it is advisable to drive within the speed limit. "
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                app:fontFamily="@font/futuralightbt"></TextView>
+            <!-- everything you already have -->
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
